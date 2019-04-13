@@ -19,14 +19,14 @@ def check(ID):
         X=str(bir_code[ID[0]])
         X1=int(X[0])
         X2=int(X[1])*9
-        D1=int(ID[1])*1
-        D2=int(ID[2])*2
-        D3=int(ID[3])*3
-        D4=int(ID[4])*4
-        D5=int(ID[5])*5
-        D6=int(ID[6])*6
-        D7=int(ID[7])*7
-        D8=int(ID[8])*8
+        D1=int(ID[1])*8
+        D2=int(ID[2])*7
+        D3=int(ID[3])*6
+        D4=int(ID[4])*5
+        D5=int(ID[5])*4
+        D6=int(ID[6])*3
+        D7=int(ID[7])*2
+        D8=int(ID[8])
         D9=int(ID[9])
         Y=X1+X2+D1+D2+D3+D4+D5+D6+D7+D8+D9
     
